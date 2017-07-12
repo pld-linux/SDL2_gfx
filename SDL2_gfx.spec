@@ -15,8 +15,6 @@ BuildRequires:	autoconf >= 2.59-9
 BuildRequires:	automake
 BuildRequires:	libtool >= 2:2
 BuildRequires:	pkgconfig
-BuildRequires:	rpmbuild(macros) >= 1.566
-BuildRequires:	sed >= 4.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
