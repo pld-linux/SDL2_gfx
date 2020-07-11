@@ -1,15 +1,15 @@
 Summary:	Graphics primitives and surface functions for SDL2
 Summary(pl.UTF-8):	Funkcje do figur graficznych i powierzchni dla SDL2
 Name:		SDL2_gfx
-Version:	1.0.3
+Version:	1.0.4
 Release:	1
 License:	ZLib (BSD-like)
 Group:		Libraries
-#Source0Download: http://www.ferzkopp.net/wordpress/2016/01/02/sdl_gfx-sdl2_gfx/
-Source0:	http://www.ferzkopp.net/Software/SDL2_gfx/%{name}-%{version}.tar.gz
-# Source0-md5:	6cd25c38a803295348e8c00e9c69d364
+#Source0Download: https://www.ferzkopp.net/wordpress/2016/01/02/sdl_gfx-sdl2_gfx/
+Source0:	https://www.ferzkopp.net/Software/SDL2_gfx/%{name}-%{version}.tar.gz
+# Source0-md5:	15f9866c6464ca298f28f62fe5b36d9f
 Patch0:		%{name}-local-labels.patch
-URL:		http://www.ferzkopp.net/wordpress/2016/01/02/sdl_gfx-sdl2_gfx/
+URL:		https://www.ferzkopp.net/wordpress/2016/01/02/sdl_gfx-sdl2_gfx/
 BuildRequires:	SDL2-devel >= 2.0.0
 BuildRequires:	autoconf >= 2.59-9
 BuildRequires:	automake
